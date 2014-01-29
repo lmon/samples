@@ -1,5 +1,6 @@
 <?php
 /*
+Adding a Line
 Remove Duplicates From A List
 December 17, 2013
 http://programmingpraxis.com/2013/12/17/remove-duplicates-from-a-list/
