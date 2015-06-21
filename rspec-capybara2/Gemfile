@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+ruby '2.1.2'
+
+gem 'activerecord'
+#gem 'mysql2', '> 0.3'
+#gem 'pry'
+
+#group :development, :test do
+	gem 'rspec'
+  	gem 'capybara', :git => 'https://github.com/jnicklas/capybara.git'
+  	gem 'launchy'
+	gem 'selenium-webdriver' 
+  	gem 'factory_girl_rails' 
+
+  #gem 'debugger'
+#end
+
