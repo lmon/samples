@@ -52,7 +52,7 @@ $count = 0;
 				print "Robot : ". $GLOBALS['moves'][$result['RobotMove']]."/".$result['RobotMove']."\n";
 
 				print "Winner : ". $result['handWinner'] ."\n";
-				print "Hands Played ". $GLOBALS['handsPlayed'] ."\n";
+				print "\tHands Played ". $GLOBALS['handsPlayed'] ."\n";
 			}
 			// we have a winner
 			if(isset($result['status']) && $result['status'] == 'finished'){
